@@ -1,0 +1,49 @@
+.experience {
+  .container {
+    position: relative;
+    .title {
+      text-align: center;
+      margin-top: 125px;
+      margin-bottom: 88px;
+      .title1 {
+        color: #7de0ea;
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 8px;
+      }
+      .title2 {
+        font-weight: 600;
+        font-size: 40px;
+      }
+    }
+    .shape1 {
+      width: 54.68px;
+      height: 57.02px;
+      background-color: #7de0ea;
+      border-radius: 12px;
+      bottom: -16%;
+      left: -4%;
+      transform: rotate(177.74deg);
+    }
+    .shape3 {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #7b55ec;
+      bottom: -24%;
+      left: 10%;
+    }
+    .shape6 {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background-color: #7de0ea;
+      bottom: 0;
+      left: -5.5%;
+    }
+  }
+}
+
+.mode-light .experience .title2 {
+  color: #282938;
+}

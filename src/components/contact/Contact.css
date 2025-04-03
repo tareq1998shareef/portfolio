@@ -1,0 +1,113 @@
+.contact {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  .container {
+    .title {
+      margin-bottom: 56px;
+      .main-title {
+        color: #7de0ea;
+        font-weight: 500;
+        font-size: 20px;
+      }
+      .contact-title {
+        font-weight: 600;
+        font-size: 40px;
+        span {
+          color: #7de0ea;
+        }
+      }
+    }
+    .info-contact {
+      display: flex;
+      gap: 60px;
+      .my-information {
+        width: 40%;
+        .info {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: 104px;
+          .icon {
+            background-color: #7de0ea;
+            border-radius: 8px;
+            min-width: 61.85px;
+            height: 56px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin-right: 19.88px;
+          }
+          .text-info {
+            font-size: 16px;
+            p:first-child {
+              color: #92929d;
+              font-weight: 400;
+              margin-bottom: 16px;
+            }
+            p:last-child {
+              font-weight: 500;
+            }
+          }
+        }
+      }
+      form {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+        .name-and-email {
+          display: flex;
+          gap: 26.51px;
+        }
+        .input-form {
+          padding: 16px 26.51px;
+          border-radius: 8px;
+          width: 100%;
+          border: 1px solid #bec0bf;
+          outline: none;
+          font-weight: 400;
+          font-size: 16px;
+          background-color: inherit;
+        }
+        .message {
+          height: 170px;
+          resize: none;
+        }
+        button {
+          font-weight: 500;
+          font-size: 14px;
+          background-color: #7de0ea;
+          color: #fff;
+          padding: 15px 50px 14px 51px;
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.mode-light .contact .info-contact .call-me {
+  box-shadow: 0px 30px 116px -16px #d3d3d333;
+  border-radius: 8px;
+}
+.mode-dark .contact .info-contact form .input-form {
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .contact .info-contact {
+    flex-direction: column;
+  }
+  .contact form {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .contact form {
+    width: 60%;
+  }
+  .contact form button {
+    width: fit-content;
+  }
+}

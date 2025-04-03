@@ -1,0 +1,96 @@
+.advertisements {
+  margin-top: 165px;
+  z-index: 4;
+  .container {
+    width: 90%;
+    .behind {
+      position: absolute;
+      width: inherit;
+      height: inherit;
+      background-color: #7de0ea;
+      transform: rotate(-1.34deg);
+      border-radius: 32px;
+    }
+    .front {
+      background-image: url("public/assets/images/linesAdvertisements.svg");
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      position: absolute;
+      background-color: #583fbc;
+      border-radius: 32px;
+      width: inherit;
+      height: inherit;
+      color: #fff;
+      .vector {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+      }
+      .text {
+        h2 {
+          font-weight: 600;
+        }
+        p {
+          font-weight: 400;
+        }
+      }
+      button {
+        background-color: #7de0ea;
+        color: #fff;
+        padding: 16px 32px;
+        cursor: pointer;
+        border: none;
+        border-radius: 6px;
+        font-weight: 600;
+        font-size: 14px;
+        display: flex;
+        gap: 12.43px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .advertisements {
+    .container {
+      height: 280px;
+      .front {
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        .text {
+          h2 {
+            font-size: 36px;
+          }
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .advertisements {
+    .container {
+      height: 376px;
+      .behind {
+        right: 74px;
+      }
+      .front {
+        justify-content: space-evenly;
+        .text {
+          h2 {
+            font-size: 48px;
+          }
+          p {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+.about {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100%;
+    margin-top: 60px;
+    .about-picture {
+      position: relative;
+      margin-left: 8%;
+      height: 400px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      .lines {
+        position: relative;
+        width: 300px;
+        height: 400px;
+        .ellipse {
+          position: absolute;
+          border: 1px solid #ebecf0;
+          border-radius: 50%;
+          width: 100%;
+          height: 100%;
+          transform: rotate(-45deg);
+        }
+        .ellipse2 {
+          top: 15px;
+          right: 15px;
+        }
+        .ellipse3 {
+          right: 30px;
+          top: 30px;
+        }
+      }
+      .picture {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        .icon {
+          position: absolute;
+          width: 70px;
+          font-size: 70px;
+        }
+        .html {
+          color: #f16529;
+          left: -40px;
+          top: 40px;
+          z-index: 1;
+        }
+        .css {
+          color: #2965f1;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+        .figma {
+          right: 20px;
+          top: 70px;
+        }
+        .github {
+          left: 10px;
+          bottom: 40px;
+        }
+        .react {
+          right: -40px;
+          bottom: 40px;
+          color: #00d8ff;
+        }
+      }
+    }
+    .about-skills {
+      h2 {
+        font-weight: 600;
+        font-size: 40px;
+        margin-bottom: 12px;
+      }
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 40px;
+      }
+    }
+    .skills {
+      .skill {
+        span {
+          font-weight: 600;
+          font-size: 24px;
+          display: block;
+          margin-bottom: 4px;
+        }
+        .progress {
+          width: 96%;
+          height: 11px;
+          background-color: #edecec;
+          border-radius: 6px;
+          margin-bottom: 20px;
+
+          .percentage {
+            background-color: #7de0ea;
+            height: 100%;
+            border-radius: inherit;
+            position: relative;
+            .rate {
+              background-color: #7de0ea;
+              position: absolute;
+              font-weight: 400;
+              font-size: 10px;
+              color: white;
+              padding: 4px 6px;
+              border-radius: 4px;
+              bottom: 26px;
+              right: -10px;
+            }
+            .rate::after {
+              content: "";
+              position: absolute;
+              top: 100%;
+              left: 50%;
+              transform: translateX(-50%);
+              border-width: 5px;
+              border-style: solid;
+              border-color: #7de0ea transparent transparent transparent;
+            }
+          }
+          .percentage::after {
+            content: "";
+            position: absolute;
+            right: -12px;
+            bottom: -6px;
+            border: 3px solid #7de0ea;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: #edecec;
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mode-light .about .about-picture .github {
+  color: #1b1f23;
+}
+
+@media (min-width: 992px) {
+  .about .about-picture {
+    display: flex;
+  }
+  .about .about-skills {
+    width: 50%;
+  }
+}
+@media (max-width: 991px) {
+  .about .about-picture {
+    display: none;
+  }
+}
