@@ -15,7 +15,7 @@ export default function Details() {
       libraries: [""],
       github: "https://tareq1998shareef.github.io/my-world/",
       githubRepo: "https://github.com/tareq1998shareef/my-world",
-      image: "/public/assets/images/myworld.png",
+      image: "/assets/images/myworld.png",
     },
     {
       id: "2",
@@ -28,7 +28,7 @@ export default function Details() {
       libraries: ["React.js"],
       github: "https://tareq1998shareef.github.io/dashboard/",
       githubRepo: "https://github.com/tareq1998shareef/dashboard",
-      image: "/public/assets/images/dashboard.png",
+      image: "/assets/images/dashboard.png",
     },
     {
       id: "3",
@@ -41,7 +41,7 @@ export default function Details() {
       libraries: [""],
       github: "https://tareq1998shareef.github.io/book-store/",
       githubRepo: "https://github.com/tareq1998shareef/book-store",
-      image: "/public/assets/images/book.png",
+      image: "/assets/images/book.png",
     },
   ];
   const { id } = useParams();

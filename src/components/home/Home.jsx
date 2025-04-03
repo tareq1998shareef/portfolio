@@ -8,7 +8,7 @@ export default function Home() {
     <div className="hero">
       <img
         className="vector"
-        src="public/assets/images/lines.svg"
+        src="/assets/images/lines.svg"
         alt="lines"
       />
       <div className="container">
@@ -26,7 +26,7 @@ export default function Home() {
           <div className="circle-bg"></div>
           <img
             className="main-image"
-            src="public/assets/images/selfie.png"
+            src="/assets/images/selfie.png"
             alt="Selfie"
           />
           <div className="shape shape1"></div>

@@ -23,7 +23,7 @@ export default function AboutMe() {
             <FaCss3Alt className="icon css" />
             <img
               className="icon figma"
-              src="/public/assets/images/figmaIcon.png"
+              src="/assets/images/figmaIcon.png"
               alt="figma"
             />
             <FaGithub className="icon github" />
