@@ -12,7 +12,7 @@
       border-radius: 32px;
     }
     .front {
-      background-image: url("/assets/images/linesAdvertisements.svg");
+      background-image: url("../../public/assets/images/linesAdvertisements.svg");
       background-repeat: no-repeat;
       display: flex;
       align-items: center;
