@@ -8,7 +8,7 @@ export default function Home() {
     <div className="hero">
       <img
         className="vector"
-        src="../../public/assets/images/lines.svg"
+        src="/assets/images/Lines.svg"
         alt="lines"
       />
       <div className="container">
