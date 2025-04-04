@@ -30,6 +30,34 @@
         justify-content: center;
         align-items: center;
       }
+      .navigation-buttons {
+        display: flex;
+        align-items: center;
+        gap: 8.08px;
+        .navigate {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          border: 1px solid #7de0ea;
+          background: transparent;
+          color: #fff;
+          font-size: 24px;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: 0.3s;
+        }
+        .navigate:hover {
+          background-color: #7de0ea;
+          color: white;
+        }
+        .navigate:disabled {
+          border-color: #ccc;
+          color: #aaa;
+          cursor: not-allowed;
+        }
+      }
     }
     .projects-grid {
       display: grid;

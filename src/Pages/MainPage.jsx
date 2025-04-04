@@ -20,6 +20,10 @@ export default function MainPage() {
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
       const aboutTop = aboutRef.current?.offsetTop || 0;
@@ -79,7 +83,7 @@ export default function MainPage() {
         <Advertisements contactRef={contactRef} />
       </div>
       <div ref={projectsRef}>
-        <Projects title="My Creative Works Latest" />
+        <Projects title="My Creative Works Latest" start="0" end="100" view/>
       </div>
       <div ref={contactRef}>
         <Contact />

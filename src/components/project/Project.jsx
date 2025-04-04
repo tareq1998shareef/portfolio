@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import "./Project.css";
 import { LuCircleArrowOutUpRight } from "react-icons/lu";
 
-const projects = [
+export const projects = [
   {
     id: 1,
     title: "My World",
@@ -26,10 +26,13 @@ const projects = [
   },
 ];
 
-export default function Project() {
+export default function Project({ start, end }) {
+  const filteredProjects = projects.filter(
+    (_, index) => index >= start && index <= end
+  );
   return (
     <>
-      {projects.map((project, index) => (
+      {filteredProjects.map((project, index) => (
         <div key={index} className="project-card">
           <img
             src={project.image}

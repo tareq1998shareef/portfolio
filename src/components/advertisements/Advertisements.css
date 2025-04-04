@@ -61,6 +61,7 @@
         flex-direction: column;
         justify-content: center;
         gap: 20px;
+        padding: 20px;
         .text {
           h2 {
             font-size: 36px;

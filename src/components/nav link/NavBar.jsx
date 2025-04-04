@@ -40,6 +40,7 @@ export default function NavBar({ activeSection, refs }) {
               className={activeSection === "home" ? "active" : ""}
               id="home"
               onClick={() => {
+                setShow((prev) => !prev);
                 scrollToSection(
                   location.pathname == "/" ? refs.homeRef : navigate("/")
                 );
@@ -50,28 +51,36 @@ export default function NavBar({ activeSection, refs }) {
             <li
               className={activeSection === "about" ? "active" : ""}
               id="about"
-              onClick={() => scrollToSection(refs.aboutRef)}
+              onClick={() => {
+                scrollToSection(refs.aboutRef), setShow((prev) => !prev);
+              }}
             >
               About me
             </li>
             <li
               className={activeSection === "education" ? "active" : ""}
               id="education"
-              onClick={() => scrollToSection(refs.educationRef)}
+              onClick={() => {
+                scrollToSection(refs.educationRef), setShow((prev) => !prev);
+              }}
             >
               Education
             </li>
             <li
               className={activeSection === "projects" ? "active" : ""}
               id="projects"
-              onClick={() => scrollToSection(refs.projectsRef)}
+              onClick={() => {
+                scrollToSection(refs.projectsRef), setShow((prev) => !prev);
+              }}
             >
               Projects
             </li>
             <li
               className={activeSection === "contact" ? "active" : ""}
               id="contact"
-              onClick={() => scrollToSection(refs.contactRef)}
+              onClick={() => {
+                scrollToSection(refs.contactRef), setShow((prev) => !prev);
+              }}
             >
               Contact
             </li>
