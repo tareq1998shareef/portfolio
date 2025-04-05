@@ -15,7 +15,7 @@ export const projects = [
     title: "food delivery",
     description: "Html-Css3-React",
     image: "/assets/images/food_del.jpg",
-    github: "food-delivery-sable-beta.vercel.app",
+    github: "https://food-delivery-sable-beta.vercel.app",
   },
   {
     id: 3,
