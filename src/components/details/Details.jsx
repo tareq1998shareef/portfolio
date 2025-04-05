@@ -27,7 +27,7 @@ export default function Details() {
       libraries: ["React.js"],
       github: "https://github.com/tareq1998shareef/food_delivery",
       githubRepo: "food-delivery-sable-beta.vercel.app",
-      image: "/assets/images/food_del.PNG",
+      image: "/assets/images/food_del.jpg",
     },
     {
       id: "3",
