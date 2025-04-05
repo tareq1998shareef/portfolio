@@ -22,7 +22,7 @@ export default function Details() {
       title: "food delivery",
       date: "12-5-2024",
       description: "Training site for delivering orders to a restaurant.",
-      languages: ["Html5", "Css", "React"],
+      languages: ["Html5", "Css", "Javascript"],
       framework: "",
       libraries: ["React.js"],
       github: "https://github.com/tareq1998shareef/food_delivery",
@@ -48,7 +48,7 @@ export default function Details() {
       date: "2-3-2025",
       description:
         "Simple training website based on a design on Figma and real ABI.",
-      languages: ["Html5", "Css", "React"],
+      languages: ["Html5", "Css", "Javascript"],
       framework: "",
       libraries: ["React.js"],
       github: "https://tareq1998shareef.github.io/dashboard/",
