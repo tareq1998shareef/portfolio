@@ -5,24 +5,31 @@ import { LuCircleArrowOutUpRight } from "react-icons/lu";
 export const projects = [
   {
     id: 1,
+    title: "Book Store",
+    description: "Html-Css3-Vanilla javascript",
+    image: "/assets/images/book.PNG",
+    github: "https://tareq1998shareef.github.io/book-store/",
+  },
+  {
+    id: 2,
+    title: "food delivery",
+    description: "Html-Css3-React",
+    image: "/assets/images/food_del.PNG",
+    github: "food-delivery-sable-beta.vercel.app",
+  },
+  {
+    id: 3,
     title: "My World",
     description: "Html-Css3-Vanilla javascript",
     image: "/assets/images/myworld.PNG",
     github: "https://tareq1998shareef.github.io/my-world/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Dashboard",
     description: "Html-Css3-React",
     image: "/assets/images/dashboard.PNG",
     github: "https://tareq1998shareef.github.io/dashboard/",
-  },
-  {
-    id: 3,
-    title: "Book Store",
-    description: "Html-Css3-Vanilla javascript",
-    image: "/assets/images/book.PNG",
-    github: "https://tareq1998shareef.github.io/book-store/",
   },
 ];
 

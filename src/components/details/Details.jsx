@@ -6,6 +6,31 @@ export default function Details() {
   const project = [
     {
       id: "1",
+      title: "Book Store",
+      date: "1-4-2024",
+      description:
+        "A training site based on designing with Figma and real ABI.",
+      languages: ["Html5", "Css", "Javascript"],
+      framework: "",
+      libraries: [""],
+      github: "https://tareq1998shareef.github.io/book-store/",
+      githubRepo: "https://github.com/tareq1998shareef/book-store",
+      image: "/assets/images/book.PNG",
+    },
+    {
+      id: "2",
+      title: "food delivery",
+      date: "12-5-2024",
+      description: "Training site for delivering orders to a restaurant.",
+      languages: ["Html5", "Css", "React"],
+      framework: "",
+      libraries: ["React.js"],
+      github: "https://github.com/tareq1998shareef/food_delivery",
+      githubRepo: "food-delivery-sable-beta.vercel.app",
+      image: "/assets/images/food_del.PNG",
+    },
+    {
+      id: "3",
       title: "My World",
       date: "12-5-2024",
       description:
@@ -18,7 +43,7 @@ export default function Details() {
       image: "/assets/images/myworld.PNG",
     },
     {
-      id: "2",
+      id: "4",
       title: "Dashboard",
       date: "2-3-2025",
       description:
@@ -29,19 +54,6 @@ export default function Details() {
       github: "https://tareq1998shareef.github.io/dashboard/",
       githubRepo: "https://github.com/tareq1998shareef/dashboard",
       image: "/assets/images/dashboard.PNG",
-    },
-    {
-      id: "3",
-      title: "Book Store",
-      date: "1-4-2024",
-      description:
-        "A training site based on designing with Figma and real ABI.",
-      languages: ["Html5", "Css", "Javascript"],
-      framework: "",
-      libraries: [""],
-      github: "https://tareq1998shareef.github.io/book-store/",
-      githubRepo: "https://github.com/tareq1998shareef/book-store",
-      image: "/assets/images/book.PNG",
     },
   ];
   const { id } = useParams();
